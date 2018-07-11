@@ -1,0 +1,123 @@
+body{
+  background-color: #a3a3a3;
+  margin: 0;
+}
+.login{
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  background-color: #242627;
+}
+.login h3{
+  color: #ececec;
+  margin-bottom: 1vh;
+}
+.login > div{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.login .warning{
+  display: none;
+  position: absolute;
+  color: red;
+  bottom: -2em;
+  width: 100%;
+  font-weight: 100;
+}
+.login input{
+  margin: auto;
+  margin-bottom: 1vw;
+  width: 30vw;
+}
+.login button{
+  margin: auto;
+  width: 10vw;
+  height: 5vh;
+}
+.container{
+  display: none;
+  text-align: center;
+  margin: auto;
+  flex-direction: row;
+  background-color: #242627;
+  border: solid #ececec;
+  border-width: 0 0.5vw 0 0.5vw;
+  height: 99vh;
+  width: 80vw;
+}
+.list{
+  
+  width: 20vw;
+}
+.list .sysM{
+  text-align: end;
+  margin-right: 1em;
+}
+.boxFlexWrapper{
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  width: 100%;
+  overflow: auto;
+  border: solid #ececec 0vw;
+  border-left-width: 0.5vw;
+}
+.box .message{  
+  margin: 0.2vw 1vw 1vw 1vw;
+  border-width: 0.2vw 0.5vw 0.2vw 0.5vw;
+  border-radius: 0.5vw;
+  border-style: solid;
+  display: inline;
+  background-color: #ececec;
+  border-color: #ececec;
+}
+.box .preM{
+  color: #ececec;
+  margin-bottom: 0;
+  font-size: 0.6em;
+}
+.box .myM{
+  align-self: flex-end;  
+  margin-right: 1em;
+}
+.box .otherM{
+  align-self: flex-start;
+  margin-left: 1em;
+}
+.sysM{
+  color: #ececec;
+  font-size: 0.8em;
+}
+form{
+  display: flex;
+  height: 3vh;
+  width: 100%;
+  padding: 0 0 0 5%;
+  margin: 0;
+  border: solid #ececec 0vw;
+  border-left-width: 0.5vw;
+}
+textarea{
+  min-height: 3vh;
+  resize: none;
+  font-size: 1em;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+}
+form button{
+  width: 10%;
+  font-size: 1em;
+  align-self: flex-start;
+  min-height: 3vh;
+  margin: 0;
+  padding: auto;
+}
+
